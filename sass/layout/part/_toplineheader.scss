@@ -1,0 +1,110 @@
+.top__line__header {
+  position: relative;
+  width: 100%;
+  height: 43px;
+  padding-bottom:36px;
+  border-bottom:1px solid #e5e5e5;
+  .logo {
+    position: relative;
+    float: left;
+    width: 42px;
+    height: 42px;
+    background-color: #222222;
+    text-align: center;
+    .logo__content {
+      display: block;
+      font-size: 14px;
+      font-weight:normal;
+      font-style: normal;
+      color: #fff;
+      line-height:42px;
+    }
+  }
+
+  .main__menu {
+    position: relative;
+    float: left;
+    margin-left:55px;
+    margin-top: 13px;
+    ul {
+      position: relative;
+      display: block;
+      li {
+        display: inline-block;
+        margin-left: 50px;
+        &:first-child {
+          margin-left: 0;
+        }
+        .link {
+          color: #303030;
+        }
+      }
+    }
+  }
+  .user__login {
+    position: relative;
+    float: right;
+    margin-top: 12px;
+    margin-right: 60px;
+    a {
+      font-size: 14px;
+      font-weight:normal;
+      font-style: normal;
+      color: #303030;
+      &:before {
+        position: relative;
+        content: url("../img/user.png");
+        top:2px;
+        right: 10px;
+      }
+    }
+  }
+  .basket {
+    position: relative;
+    float: right;
+    margin-top: 12px;
+    margin-right: 50px;
+    a {
+      font-size: 14px;
+      font-weight:normal;
+      font-style: normal;
+      color: #303030;
+      &:before {
+        position: relative;
+        content: url("../img/basket.png");
+        top:2px;
+        right: 10px;
+      }
+    }
+  }
+  .search {
+    position: relative;
+    float: right;
+    .search__input {
+      display: none;
+      float: left;
+      max-width: 214px;
+      min-width:100px;
+      height: 38px;
+      border: 1px solid #959595;
+      color: #303030;
+      padding-left: 15px;
+      margin-right:-1px;
+    }
+    .search__button {
+      display: block;
+      position: relative;
+      float: right;
+      width: 40px;
+      height: 40px;
+      background-image: url("../img/search.png");
+      background-repeat:no-repeat;
+      background-position: center center;
+      border:1px solid #959595;
+      &:hover {
+        background-color: #606060;
+        background-image: url("../img/search-hover.png");
+      }
+    }
+  }
+}

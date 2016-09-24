@@ -1,0 +1,223 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/base/_base.scss */
+body {
+  background: #e5e5e5;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+/* line 6, ../sass/base/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 9, ../sass/base/_base.scss */
+input {
+  outline: none;
+}
+
+/* line 1, ../sass/layout/_layout.scss */
+.wrapper {
+  position: relative;
+  min-width: 320px;
+  max-width: 1246px;
+  height: 1000px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 36px 32px 45px;
+}
+/* line 1, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header {
+  position: relative;
+  width: 100%;
+  height: 43px;
+  padding-bottom: 36px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* line 7, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header .logo {
+  position: relative;
+  float: left;
+  width: 42px;
+  height: 42px;
+  background-color: #222222;
+  text-align: center;
+}
+/* line 14, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header .logo .logo__content {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  line-height: 42px;
+}
+/* line 24, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header .main__menu {
+  position: relative;
+  float: left;
+  margin-left: 55px;
+  margin-top: 13px;
+}
+/* line 29, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header .main__menu ul {
+  position: relative;
+  display: block;
+}
+/* line 32, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header .main__menu ul li {
+  display: inline-block;
+  margin-left: 50px;
+}
+/* line 35, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header .main__menu ul li:first-child {
+  margin-left: 0;
+}
+/* line 38, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header .main__menu ul li .link {
+  color: #303030;
+}
+/* line 44, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header .user__login {
+  position: relative;
+  float: right;
+  margin-top: 12px;
+  margin-right: 60px;
+}
+/* line 49, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header .user__login a {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  color: #303030;
+}
+/* line 54, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header .user__login a:before {
+  position: relative;
+  content: url("../img/user.png");
+  top: 2px;
+  right: 10px;
+}
+/* line 62, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header .basket {
+  position: relative;
+  float: right;
+  margin-top: 12px;
+  margin-right: 50px;
+}
+/* line 67, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header .basket a {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  color: #303030;
+}
+/* line 72, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header .basket a:before {
+  position: relative;
+  content: url("../img/basket.png");
+  top: 2px;
+  right: 10px;
+}
+/* line 80, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header .search {
+  position: relative;
+  float: right;
+}
+/* line 83, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header .search .search__input {
+  display: none;
+  float: left;
+  max-width: 214px;
+  min-width: 100px;
+  height: 38px;
+  border: 1px solid #959595;
+  color: #303030;
+  padding-left: 15px;
+  margin-right: -1px;
+}
+/* line 94, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header .search .search__button {
+  display: block;
+  position: relative;
+  float: right;
+  width: 40px;
+  height: 40px;
+  background-image: url("../img/search.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid #959595;
+}
+/* line 104, ../sass/layout/part/_toplineheader.scss */
+.wrapper .top__line__header .search .search__button:hover {
+  background-color: #606060;
+  background-image: url("../img/search-hover.png");
+}

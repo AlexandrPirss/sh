@@ -1,0 +1,10 @@
+.wrapper {
+  position: relative;
+  min-width:320px;
+  max-width:1246px;
+  height: 1000px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding:36px 32px 45px;
+  @import "part/toplineheader";
+}
