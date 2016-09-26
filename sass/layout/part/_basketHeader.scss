@@ -1,0 +1,27 @@
+.basket__header {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding: 100px 0px;
+	.mob__navigation {
+		display: none;
+		text-align: center;
+	}
+	.title {
+		font-size: 36px;
+		font-family: "LatoBold";
+		font-weight: normal;
+		font-style: normal;
+		color: #303030;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.text {
+		font-size: 18px;
+		font-family: "georgia-italic";
+		font-weight: normal;
+		font-style: normal;
+		color: #606060;
+		text-align: center;
+	}
+}

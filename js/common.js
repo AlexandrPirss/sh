@@ -10,5 +10,9 @@ $(function() {
         e.preventDefault()
     });
 
+     $(".wrapper .basket__content .product__item .close").click(function(){
+        $(this).parents(".product__item").animate({ opacity: "hide" }, "slow");
+    });
+ 
 
 });

@@ -42,6 +42,7 @@
     width: 100%;
     height: 380px;
     z-index: 100;
+    margin-bottom: 20px;
     ul {
       position: relative;
       display: block;
@@ -107,7 +108,7 @@
     float: right;
     margin-top: 12px;
     margin-right: 50px;
-    a {
+    .basket__icon {
       font-size: 14px;
       font-weight:normal;
       font-style: normal;
@@ -118,6 +119,10 @@
         top:2px;
         right: 10px;
       }
+    }
+    .basket__icon__mob {
+      display: none;
+      cursor: pointer;
     }
   }
   .search {
