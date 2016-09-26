@@ -1,0 +1,39 @@
+.inspirations	{
+	position: relative;
+	padding-bottom: 60px;
+	.swiper-container {
+		width: 100%;
+		height: 120px;
+		.swiper-slide {
+			text-align: center;
+			color: #000;
+			background-color: #000;
+			&:nth-child(1) {
+				background-color: #bbbbbb;
+			}
+			&:nth-child(2) {
+				background-color: #606060;
+			}
+		}
+		.swiper-button-next {
+			width: 40px;
+			right: 0;
+			top: 0;
+			height: 100%;
+			margin-top: 0px;
+			background-color: rgba(255,255,255,.6);
+			background-image: url("../img/arrowRightSlider.png");
+			background-position: 6px center;
+		}
+		.swiper-button-prev {
+			width: 40px;
+			left: 0;
+			top: 0;
+			height: 100%;
+			margin-top: 0px;
+			background-color: rgba(255,255,255,.6);
+			background-image: url("../img/arrowLeftSlider.png");
+			background-position: 6px center;
+		}
+	}
+}

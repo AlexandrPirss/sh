@@ -4,13 +4,7 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
-
-//_base.scss - default settings
-@import "base/base";
-
-//_fonts - font-family
-
-
-
-// _layout.scss - work directory
-@import "layout/layout";
+@import "base/_base.scss";
+@import "moduls/_moduls.scss";
+@import "layout/_layout.scss";
+@import "fonts/_fonts.scss";

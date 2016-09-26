@@ -1,0 +1,44 @@
+.singUp {
+	position: relative;
+	width: 100%;
+	padding: 130px 0px;
+	.title {
+		font-size: 36px;
+		font-family: "LatoBold";
+		font-weight: normal;
+		font-style: normal;
+		color: #303030;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.text {
+		font-size: 18px;
+		font-family: "georgia-italic";
+		font-weight: normal;
+		font-style: normal;
+		color: #606060;
+		text-align: center;
+		margin-top: 7px;
+	}
+	.form {
+		max-width: 574px;
+		margin: 0 auto;
+		margin-top: 55px;
+		.mail__input {
+			height: 52px;
+			border: 1px solid #959595;
+			width: 100%;
+			max-width: 459px;
+			padding-left: 15px;
+		}
+		.button {
+			width: 96px;
+			margin-left: -5px;
+			height: 56px;
+			border: 1px solid #e67429;
+			background-color: #f68236;
+			color: #fff;
+			cursor: pointer;
+		}
+	}
+}

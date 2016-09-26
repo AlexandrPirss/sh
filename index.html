@@ -2,11 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="stylesheets/screen.css">
 </head>
 <body>
@@ -28,7 +25,6 @@
                 </div>
 
                 <div class="search">
-                    <!--input(d:none) + span(icon)-->
                     <input type="text" class="search__input" placeholder="Search something...">
 
                     <a href="" class="search__button"></a>
@@ -42,15 +38,243 @@
                     <a href="">Log In</a>
                 </div>
 
+                <a href="" class="mobile__icon"></a>
+
+                <div class="mobile__menu">
+                    <ul>
+                        <li><a href="#" class="link">Woman</a></li>
+                        <li><a href="#" class="link">Man</a></li>
+                        <li><a href="#" class="link">Kids</a></li>
+                        <li><a href="#" class="link">Comming Soon</a></li>
+                        <li><a href="#" class="link">About</a></li>
+                    </ul>
+                </div>
+
             </div>
 
-            <div class="slider__header"></div>
+            <div class="slider__header">
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <h1 class="title">Hazy Shade of spring</h1><br>
+                            <p class="text">Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo.</p>
+                            <a href="" class="button">check new arrivals</a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <h1 class="title">Hazy Shade of spring</h1><br>
+                            <p class="text">Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo.</p>
+                            <a href="" class="button">check new arrivals</a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <h1 class="title">Hazy Shade of spring</h1><br>
+                            <p class="text">Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo.</p>
+                            <a href="" class="button">check new arrivals</a>
+                        </div>
+                    </div>
+
+                    <!-- Add Arrows -->
+                    <!-- <div class="swiper-button-next"></div> -->
+                    <!-- <div class="swiper-button-prev"></div> -->
+                </div>
+            </div>
         </header>
+
+
+        <section class="squares">
+            <div class="rows">
+                <div class="rows__item">
+                    <span class="rows__content">
+                        <p class="title__bold">HEATHER GREY BASICS</p>
+                        <p class="text__bold">New Arrival</p>
+                    </span>
+                </div>
+
+                <div class="rows__item">
+                    <span class="rows__content">
+                        <img src="img/twitter-icon.png" alt="">
+                        <p class="title">Opening Ceremony @IndonesiaFW tomorrow, PMers! Are you ready for the biggest fashion movement in</p>
+                        <p class="text">@PuspitaMarthaID</p>
+                    </span>
+                </div>
+
+                <div class="rows__item">
+                    <span class="rows__content">
+
+                    </span>
+                </div>
+
+                <div class="rows__item">
+                    <span class="rows__content">
+                        <img src="img/arrow.png" alt="" class="arrowLeft">
+                        <img src="img/arrowUp.png" alt="" class="arrowUp">
+                        <p class="title__bold">elegant shoes</p>
+                        <p class="text__bold">BRAIDED LEATHER</p>
+                    </span>
+                </div>
+
+                <div class="rows__item">
+                    <span class="rows__content">
+                        <p class="title__bold">chuck taylors</p>
+                        <p class="text__bold">$125.00</p>
+                    </span>
+                </div>
+
+                <div class="rows__item">
+                    <span class="rows__content">
+                        <img src="img/twitter-icon.png" alt="">
+                        <p class="title">Girls, Girls, Girls: A Look Back at 50 Years of the Pirelli Calendar</p>
+                        <p class="text">@Vogue</p>
+                    </span>
+                </div>
+
+                <div class="rows__item">
+                    <span class="rows__content">
+                        <p class="title__bold">jeans for ADVENTURE</p>
+                        <p class="text__bold">New Arrival</p>
+                    </span>
+                </div>
+
+                <div class="rows__item">
+                    <span class="rows__content">
+
+                    </span>
+                </div>
+
+                <div class="rows__item">
+                    <span class="rows__content">
+                        <img src="img/arrow.png" alt="">
+                        <p class="title__bold">Jaxon Hat</p>
+                        <p class="text__bold">Beanie Hat</p>
+                    </span>
+                </div>
+
+                <div class="rows__item">
+                    <span class="rows__content">
+                        <p class="title__bold">basic blazer</p>
+                        <p class="text__bold">from $199.00</p>
+                    </span>
+                </div>
+
+                <div class="rows__item">
+                    <span class="rows__content">
+                        <p class="title__bold">Premium products</p>
+                        <p class="text__bold">- 50% sale</p>
+                    </span>
+                </div>
+
+                <div class="rows__item">
+                    <span class="rows__content">
+                        <p class="title__bold">basic blazer</p>
+                        <p class="text__bold">from $199.00</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="singUp">
+            <h2 class="title">sign up to receive our updates</h2>
+            <p class="text">Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus et ultrices volutpat.</p>
+
+            <form action="" class="form">
+                <input type="text"  class="mail__input" placeholder="Your e-mail">
+
+
+                <button class="button">add</button>
+
+            </form>
+        </section>
+        
+
+        <section class="inspirations">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        
+        <footer class="footer">
+            <div class="footer__item">
+                <h3 class="title">Collection</h3>
+                <ul>
+                    <li><a href="#" class="link">Woman (1725)</a></li>
+                    <li><a href="#" class="link">Men (635)</a></li>
+                    <li><a href="#" class="link">Kids (2514)</a></li>
+                    <li><a href="#" class="link">Comming Soon (76)</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__item">
+                <h3 class="title">site</h3>
+                <ul>
+                    <li><a href="#" class="link">Terms of Service </a></li>
+                    <li><a href="#" class="link">Privacy Policy </a></li>
+                    <li><a href="#" class="link">Copyright Policy </a></li>
+                    <li><a href="#" class="link">Press Kit </a></li>
+                    <li><a href="#" class="link">Support</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__item">
+                <h3 class="title">Shop</h3>
+                <ul>
+                    <li><a href="#" class="link">About us</a></li>
+                    <li><a href="#" class="link">Shipping Metods</a></li>
+                    <li><a href="#" class="link">Career</a></li>
+                    <li><a href="#" class="link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__item">
+                <h3 class="title">social</h3>
+                <span class="text">Shoper is made with love in Warsaw,<br>2014 © All rights reserved. El Passion</span>
+
+                <ul class="social__icon">
+                    <li><a href="#" class="social__link tw"></a></li>
+                    <li><a href="#" class="social__link fb"></a></li>
+                    <li><a href="#" class="social__link insta"></a></li>
+                </ul>
+            </div>
+        </footer>
     </div>
+
+
 
     <script src="js/jquery/jquery-1.11.2.min.js"></script>
     <script src="libs/swiper/dist/js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <!-- <script>
+    var swiper = new Swiper('.swiper-container', {
+        autoplay: 3000
+    });
+    </script>
+-->    
 
-    <script src="js/common.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        loop: true
+    });
+</script>
+
+
+<script src="js/common.js"></script>
 </body>
 </html>
